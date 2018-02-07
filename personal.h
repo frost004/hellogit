@@ -1,32 +1,27 @@
+ifndef PERSONAL_H
+#define PERSONAL_H
 #include <string>
+
 using namespace std;
 
-class Personal{
-	public:
-		explicit Personal (string gname)
-		:name{gname}
-		{
-}
-		Personal (int p_age)
-		:age{p_age}
-		{
-}
+class Personal {
 
-void SetAge(int p_age){
-	age=p_age;
-}
+private:
 
-int getAge() const{
-return age;
-}
+	int Age;
+	std::string  Name;
+	
 
-void SetName(string gname){
-	name=gname
-}
-
-string getName() const{
-return name;
-}
 public:
-	string name;
-	int age;
+
+	Personal();
+	Personal( int , string);
+
+
+	void setAge(int );
+	int getAge();
+	void setName(string);
+	string getName ();
+	
+
+};
