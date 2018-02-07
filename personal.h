@@ -1,7 +1,7 @@
 #include <string>
 using namespace std;
 
-Class Personal{
+class Personal{
 	public:
 		explicit Personal (string gname)
 		:name{gname}
