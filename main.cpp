@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include"Personal.h"
+#include"personal.h"
 #include<string>
 
 using namespace std ;
