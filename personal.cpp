@@ -17,9 +17,9 @@ int main()
 	myVector.push_back("Shelby", 11);
 	myVector.push_back("Tia", 14);
 
-	for(int x = 0; x < myvector.size(); x+1)
+	for(int x = 0; x < myVector.size(); x+1)
 	{
-		cout << myVector[x].getAge() << " " << myVector[x].getName(); << endl
+		cout << myVector[x].getAge() << " " << myVector[x].getName() << endl;
 	}
 return 0;
 }
