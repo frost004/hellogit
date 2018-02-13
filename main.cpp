@@ -9,18 +9,15 @@ int main()
 {
 
 
-Personal ob;
-Personal ob2={700,"Orange"};
+vector <Personal> info;
 
-vector <Personal> f;
+	info.push_back({25, "Brandi");
+	info.push_back({10, "Arnold");
+	info.push_back({20, "Genny");
+	info.push_back({15, "Archie");
 
-	f.push_back(ob);
-	f.push_back(ob2);
-	f.push_back({250,"Bananas");
-	f.push_back({1000,"Apples");
-
-
-for (auto x:f)
+	cout << "Employee Personal information." << endl;
+for (auto cache : info)
 	{
 		cout << x.getAge()<<' ' << x.getName()<<endl;
 	}

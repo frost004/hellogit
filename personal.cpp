@@ -13,16 +13,16 @@ Personal::Personal(){
 };
 
 	
-Personal::Personal (int P_age,string gname, )
+Personal::Personal (int ages,string iname, )
 	{
-		Age = P_age;
-		Name = gname;
+		Age = ages;
+		Name = iname;
 		
 	}
 
-void Personal::setAge (int P_age)
+void Personal::setAge (int ages)
 	{
-		Age=P_age;
+		Age= ages;
 	}
 
 int Personal::getAge()
@@ -30,9 +30,9 @@ int Personal::getAge()
 		return Age;
 	}
 
-void Personal::setName (string gname)
+void Personal::setName (string iname)
 	{
-		Name=gname;
+		Name = iname;
 	}
 
 string Personal::getName()

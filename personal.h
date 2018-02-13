@@ -15,13 +15,18 @@ private:
 public:
 
 	Personal();
+
 	Personal( int , string);
 
 
 	void setAge(int );
+
 	int getAge();
+
 	void setName(string);
+
 	string getName ();
 	
 
 };
+#endif
